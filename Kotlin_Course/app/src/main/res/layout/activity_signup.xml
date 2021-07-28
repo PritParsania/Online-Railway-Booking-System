@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kotlin_course.SignupActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/signup_img"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/railway" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="50sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signup_name"
+                android:drawableRight="@drawable/ic_baseline_person_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:inputType="text"
+                android:lines="1"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="50sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signup_number"
+                android:drawableRight="@drawable/ic_baseline_smartphone_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Number"
+                android:lines="1"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="50sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signup_email"
+                android:drawableRight="@drawable/ic_baseline_email_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:lines="1"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="50sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signup_password"
+                android:drawableRight="@drawable/ic_baseline_vpn_key_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="50sp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/signup_confirm_password"
+                android:drawableRight="@drawable/ic_baseline_vpn_key_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="550dp"
+            android:layout_marginLeft="160dp"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:background="@drawable/rounded_button"
+            android:text="Sign_Up" />
+
+        <TextView
+            android:id="@+id/tv_connectWith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signup_button"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="77dp"
+            android:text="------------------ Or Connect With ---------------- " />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btn_cntWithGoog"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/tv_connectWith"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="124dp"
+            android:background="@drawable/rounded_button" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

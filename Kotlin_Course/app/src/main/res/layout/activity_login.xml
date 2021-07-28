@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/drawerLayout">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="400dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/railway"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/images" />
+
+    <EditText
+        android:id="@+id/et_login_email"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Phone Or Email-id"
+        android:inputType="textEmailAddress"
+        android:textColor="#0E0E0E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_logo"
+        android:drawableRight="@drawable/ic_baseline_email_24"/>
+
+    <EditText
+        android:id="@+id/et_pass_login"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/img_logo"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingBottom="15dp"
+        android:selectAllOnFocus="true"
+        android:textColor="#0E0E0E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_login_email"
+        android:drawableRight="@drawable/ic_baseline_vpn_key_24"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_logo"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="LOG IN"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_pass_login" />
+
+    <TextView
+        android:id="@+id/tv_forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Forgot Password?"
+        android:textColor="#0E0E0E"
+        android:textSize="15dp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+    <Button
+        android:id="@+id/btn_train_info"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_forgot"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Show Train Information"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@id/btn_login"
+        app:layout_constraintStart_toStartOf="@id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/tv_forgot" />
+
+    <TextView
+        android:id="@+id/tv_destination"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center_horizontal"
+        android:text="Register Yourself?"
+        android:textColor="#0E0E0E"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_train_info" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/menu_drawer"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

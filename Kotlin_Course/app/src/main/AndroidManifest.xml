@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kotlin_course">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".FailureActivity"></activity>
+        <activity android:name=".SuccessActivity" />
+        <activity android:name=".trialActivity" />
+        <activity android:parentActivityName=".LoginActivity"
+            android:name=".LoginActivity" />
+        <activity android:name=".Ticket_CountActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".CreditcardActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".Trainselection" />
+        <activity android:name=".DashboardActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="@string/key_id" />
+    </application>
+
+</manifest>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2F88902">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="150dp"
+        android:src="@drawable/facebook_logo" />
+
+    <EditText
+        android:id="@+id/et_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="60dp"
+        android:hint="Username or Email"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/et_pass_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/et_login_email"
+        android:layout_margin="60dp"
+        android:hint="Password"
+        android:paddingBottom="15dp"
+        android:selectAllOnFocus="true"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_login_email"
+        android:layout_margin="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="LOG IN"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tv_forgot"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="#3F51B5"
+        android:gravity="center_horizontal"
+        android:text="Forgot Password?"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tv_destination"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/btn3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#3F51B5"
+        android:gravity="center_horizontal"
+        android:text="Sign Up For Facebook"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+[
+  {
+    "arrival": "None",
+    "day": 1,
+    "train_name": "Falaknuma Lingampalli MMTS",
+    "station_name": "KACHEGUDA FALAKNUMA",
+    "station_code": "FM",
+    "id": 302214,
+    "train_number": "47154",
+    "departure": "07:55:00"
+  },
+  {
+    "arrival": "None",
+    "day": 1,
+    "train_name": "Thrissur Guruvayur Passenger",
+    "station_name": "THRISUR",
+    "station_code": "TCR",
+    "id": 281458,
+    "train_number": "56044",
+    "departure": "18:55:00"
+  },
+  {
+    "arrival": "None",
+    "day": 1,
+    "train_name": "Porbandar Muzaffarpur Express",
+    "station_name": "PORBANDAR",
+    "station_code": "PBR",
+    "id": 309335,
+    "train_number": "19269",
+    "departure": "15:05:00"
+  },
+  {
+    "arrival": "None",
+    "day": 1,
+    "train_name": "RAIPUR ITWARI PASS",
+    "station_name": "RAIPUR JN",
+    "station_code": "R",
+    "id": 283774,
+    "train_number": "58205",
+    "departure": "13:30:00"
+  },
+  {
+    "arrival": "None",
+    "day": 1,
+    "train_name": "Gomoh-Asansol MEMU",
+    "station_name": "GOMOH JN",
+    "station_code": "GMO",
+    "id": 319937,
+    "train_number": "63542",
+    "departure": "07:20:00"
+  },
+  {
+    "arrival": "None",
+    "day": 1,
+    "train_name": "Rai Bareli-Mumbai LTT Saket Express",
+    "station_name": "RAE BARELI JN",
+    "station_code": "RBL",
+    "id": 520605,
+    "train_number": "21068",
+    "departure": "16:15:00"
+  },
+  {
+    "arrival": "None",
+    "day": 1,
+    "train_name": "Subramanya Road Mangalore Passenger",
+    "station_name": "Subrahmanya Road",
+    "station_code": "SBHR",
+    "id": 335930,
+    "train_number": "56646",
+    "departure": "13:25:00"
+  },
+  {
+    "arrival": "None",
+    "day": 1,
+    "train_name": "Ernakulam Alappuzha Passenger",
+    "station_name": "ERNAKULAM JN",
+    "station_code": "ERS",
+    "id": 282535,
+    "train_number": "56379",
+    "departure": "07:30:00"
+  },
+  {
+    "arrival": "None",
+    "day": 1,
+    "train_name": "Salempur Barhaj Passenger",
+    "station_name": "SALEMPUR JN",
+    "station_code": "SRU",
+    "id": 336174,
+    "train_number": "55145",
+    "departure": "18:40:00"
+  }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/userId"
+        android:icon="@drawable/ic_icon"
+        android:title="User"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/adminId"
+        android:title="Admin"
+        app:showAsAction="never"/>
+</menu>

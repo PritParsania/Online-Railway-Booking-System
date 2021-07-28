@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Online Ticket Booking For Railways</string>
+    <string name="preference_file_name">Trains Preferences</string>
+    <string name="key_id">rzp_test_t9pOad9yjBihyh</string>
+    <string-array name="train_names">
+        <item>Ahmedabad</item>
+        <item>Anand</item>
+        <item>Ankleshwar</item>
+        <item>Balasinor</item>
+        <item>Bharuch</item>
+        <item>Bhavangadh</item>
+        <item>Bhavnagar</item>
+        <item>Bhuj</item>
+        <item>Dwarka</item>
+        <item>Gandhidham</item>
+        <item>Gandhinagar</item>
+        <item>Gondal</item>
+        <item>Jamnagar</item>
+        <item>Junagadh</item>
+        <item>Lothal</item>
+        <item>Mandavi</item>
+        <item>Morbi</item>
+        <item>Palanpur</item>
+        <item>Palitana</item>
+        <item>Porbandar</item>
+        <item>Patan</item>
+        <item>Rajkot</item>
+        <item>Rajpipla</item>
+        <item>Saputara</item>
+        <item>Sasan Gir</item>
+        <item>Surat</item>
+        <item>Vadodara</item>
+        <item>Vapi</item>
+        <item>Mandavi</item>
+        <item>Wankaner</item>
+    </string-array>
+    <string-array name="Expiry_Month">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="Expiry_Year">
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>25</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="Ticket">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="myprofile">My Profile</string>
+    <string name="admin">Admin</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="payment">Payment</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="drawerLayout">DrawerLayout</string>
+    <string name="navigationView">NavigationView</string>
+    <string name="card_number">Card Number</string>
+</resources>
